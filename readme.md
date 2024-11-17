@@ -5,6 +5,7 @@ clone this into your annotation folder - somewhere like:
 
 ## Create and save annotations
 ```
+sv_allow_annotations 1
 annotation_load <MAP_NAME>
 annotation_create grenade "<WHERE THE NADE LANDS>" "<TYPE OF THROW>: <ANY OTHER INFO>" float faceplayer
 annotation_save <MAP_NAME>
