@@ -20,14 +20,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "long corner"
+			Text = "Long corner"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "jump throw"
+			Text = "Stand in line with the edge of the wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -51,14 +51,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "long corner"
+			Text = "Long corner smoke"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Jump throw: Aim for corner"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -111,14 +111,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "mid box"
+			Text = "X Box smoke"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "jump throw"
+			Text = "Stand in line with the edge of the wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -142,14 +142,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "mid box"
+			Text = "X Box smoke"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Jump throw: Aim for bottom middle of black box"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -209,7 +209,7 @@
 		}
 		Desc = 
 		{
-			Text = "running jump throw: release at bottom of building edge"
+			Text = "Running jump throw: release at bottom of building edge"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -240,7 +240,7 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Running jump throw:\n\Aim above air conditioner and release before \n\crosshair hits the edge of the building"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -300,7 +300,7 @@
 		}
 		Desc = 
 		{
-			Text = "running jump throw: fast release"
+			Text = "Stand on the corner of the car"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -331,7 +331,7 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Running jump throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -391,7 +391,7 @@
 		}
 		Desc = 
 		{
-			Text = "normal throw"
+			Text = "Stand at edge of building as second man out long"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -416,14 +416,14 @@
 		Title = 
 		{
 			Text = "Long flash"
-			FontSize = 125
+			FontSize = 50
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
-			FontSize = 75
+			Text = "Left click throw"
+			FontSize = 35
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
@@ -482,7 +482,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand in front of the box"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -513,7 +513,7 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Standing W jump throw: \nAim middle left of the post\nTell teammates to turn before it pops"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
@@ -553,35 +553,6 @@
 	MapAnnotationNode18 = 
 	{
 		Enabled = true
-		Type = "text"
-		Id = "783d001a-5d24-4a8b-8a5f-e0601bba03b9"
-		SubType = "main"
-		Position = [ 1299.655518, 2243.084717, 80.10865 ]
-		Angles = [ 2.739042, -90.368927, 0.0 ]
-		VisiblePfx = false
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-		Desc = 
-		{
-			Text = "W jump throw"
-			FontSize = 75
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-	}
-	MapAnnotationNode19 = 
-	{
-		Enabled = true
 		Type = "grenade"
 		Id = "863ef5a3-c3ce-4c7e-9c56-af7255544987"
 		SubType = "main"
@@ -602,7 +573,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Get stuck in the corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -611,7 +582,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode20 = 
+	MapAnnotationNode19 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -633,14 +604,14 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left click throw: Aim at upper wire\n\\ next to cyan arch"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "863ef5a3-c3ce-4c7e-9c56-af7255544987"
 	}
-	MapAnnotationNode21 = 
+	MapAnnotationNode20 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -670,36 +641,7 @@
 		MasterNodeId = "863ef5a3-c3ce-4c7e-9c56-af7255544987"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode22 = 
-	{
-		Enabled = true
-		Type = "text"
-		Id = "736b14d9-c979-452f-ae73-a4c23339e605"
-		SubType = "main"
-		Position = [ 297.120392, 1442.047607, 81.74176 ]
-		Angles = [ -10.174929, 72.772034, 0.0 ]
-		VisiblePfx = false
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-		Desc = 
-		{
-			Text = "Left click throw"
-			FontSize = 75
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-	}
-	MapAnnotationNode23 = 
+	MapAnnotationNode21 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -722,7 +664,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand in the middle of the two bars in the middle"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -731,7 +673,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode24 = 
+	MapAnnotationNode22 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -753,14 +695,14 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left click throw: Aim at the dark patch on the wall"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "77f1ec45-656f-49e4-9feb-9de507dc157c"
 	}
-	MapAnnotationNode25 = 
+	MapAnnotationNode23 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -790,36 +732,7 @@
 		MasterNodeId = "77f1ec45-656f-49e4-9feb-9de507dc157c"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode26 = 
-	{
-		Enabled = true
-		Type = "text"
-		Id = "295b48f2-6922-49fd-b42d-b05b25611efc"
-		SubType = "main"
-		Position = [ 425.084015, 1665.943848, 99.582001 ]
-		Angles = [ -20.217905, 133.744873, 0.0 ]
-		VisiblePfx = false
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-		Desc = 
-		{
-			Text = "Left click throw"
-			FontSize = 75
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-	}
-	MapAnnotationNode27 = 
+	MapAnnotationNode25 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -835,14 +748,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Short retake flash (Left Click)"
+			Text = "Short retake flash "
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand at the edge of the wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -851,7 +764,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode28 = 
+	MapAnnotationNode26 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -866,21 +779,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Short retake flash (Left Click)"
+			Text = "Short retake flash "
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left click throw: Aim at the top of the wire"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "28e9b740-741d-4389-8666-78647d203d34"
 	}
-	MapAnnotationNode29 = 
+	MapAnnotationNode27 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -910,7 +823,7 @@
 		MasterNodeId = "28e9b740-741d-4389-8666-78647d203d34"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode30 = 
+	MapAnnotationNode28 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -926,14 +839,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Default molly (Running Throw)"
+			Text = "Default molly "
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Rough lineup throw while running onto site"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -942,7 +855,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode31 = 
+	MapAnnotationNode29 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -957,21 +870,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Default molly (Running Throw)"
+			Text = "Default molly "
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Running left click throw: \n\ Aim above red sign on the wall"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "b6fb8fb7-304a-4675-97fc-bafd3bebe556"
 	}
-	MapAnnotationNode32 = 
+	MapAnnotationNode30 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1001,7 +914,7 @@
 		MasterNodeId = "b6fb8fb7-304a-4675-97fc-bafd3bebe556"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode33 = 
+	MapAnnotationNode31 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1017,14 +930,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Cat flash (Left and Right Click)"
+			Text = "Cat flash"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Left and right click throw"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1033,7 +946,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode34 = 
+	MapAnnotationNode32 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1048,21 +961,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Cat flash (Left and Right Click)"
+			Text = "Cat flash"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left and right click throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "7ee6c50f-4c36-4283-81fe-444c5b6015c1"
 	}
-	MapAnnotationNode35 = 
+	MapAnnotationNode33 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1092,7 +1005,7 @@
 		MasterNodeId = "7ee6c50f-4c36-4283-81fe-444c5b6015c1"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode36 = 
+	MapAnnotationNode34 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1108,14 +1021,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Mid to B smoke (Jump throw)"
+			Text = "Mid to B smoke "
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand in the corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1124,7 +1037,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode37 = 
+	MapAnnotationNode35 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1134,26 +1047,26 @@
 		Angles = [ -8.349115, 129.383194, 0.0 ]
 		VisiblePfx = true
 		TextPositionOffset = [ 0.0, 0.0, 30.0 ]
-		TextFacePlayer = false
+		TextFacePlayer = true
 		TextHorizontalAlign = "center"
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Mid to B smoke (Jump throw)"
+			Text = "Mid to B smoke "
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Jump throw:\n Aim at the left tip of the shadow"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "aeae294c-812e-4214-91fd-4da240699d7e"
 	}
-	MapAnnotationNode38 = 
+	MapAnnotationNode36 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1183,7 +1096,7 @@
 		MasterNodeId = "aeae294c-812e-4214-91fd-4da240699d7e"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode39 = 
+	MapAnnotationNode37 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1199,15 +1112,15 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Mid doors smoke (Left Click)"
-			FontSize = 125
+			Text = "Mid doors smoke"
+			FontSize = 80
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
-			FontSize = 75
+			Text = "Stand in the left corner of the box"
+			FontSize = 60
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
 		}
@@ -1215,7 +1128,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode40 = 
+	MapAnnotationNode38 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1230,21 +1143,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Mid doors smoke (Left Click)"
+			Text = "Mid doors smoke "
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left click throw:\n\\ Aim for the right of the lock"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "8085adf3-9e94-4a44-9ee9-5dac0a887e06"
 	}
-	MapAnnotationNode41 = 
+	MapAnnotationNode39 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1274,7 +1187,7 @@
 		MasterNodeId = "8085adf3-9e94-4a44-9ee9-5dac0a887e06"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode42 = 
+	MapAnnotationNode40 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1297,7 +1210,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand in the corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1306,7 +1219,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode43 = 
+	MapAnnotationNode41 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1328,14 +1241,14 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "W jump throw: Aim at right of diamond"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "2a2474be-a064-4d5c-90cd-e08716d20fee"
 	}
-	MapAnnotationNode44 = 
+	MapAnnotationNode42 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1365,36 +1278,7 @@
 		MasterNodeId = "2a2474be-a064-4d5c-90cd-e08716d20fee"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode45 = 
-	{
-		Enabled = true
-		Type = "text"
-		Id = "a56f17ae-e0ea-4093-a608-db4051b70507"
-		SubType = "main"
-		Position = [ -987.975586, -312.647156, 245.092636 ]
-		Angles = [ -32.120079, 95.382309, 0.0 ]
-		VisiblePfx = false
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-		Desc = 
-		{
-			Text = "W jump throw"
-			FontSize = 75
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-	}
-	MapAnnotationNode46 = 
+	MapAnnotationNode43 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1410,14 +1294,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Self pop flash (Jump throw)"
+			Text = "Self pop flash "
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Get stuck in the corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1426,7 +1310,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode47 = 
+	MapAnnotationNode44 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1441,21 +1325,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Self pop flash (Jump throw)"
+			Text = "Self pop flash "
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Jump throw: \n\\Aim at the top right of the red shutters"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "35ec6de9-48c9-41d6-9c17-b88003ae91e0"
 	}
-	MapAnnotationNode48 = 
+	MapAnnotationNode45 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1485,7 +1369,7 @@
 		MasterNodeId = "35ec6de9-48c9-41d6-9c17-b88003ae91e0"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode49 = 
+	MapAnnotationNode46 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1501,14 +1385,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "B retake flash (Left Click)"
+			Text = "B retake flash "
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand in the corner of the box"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1517,7 +1401,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode50 = 
+	MapAnnotationNode47 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1532,21 +1416,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "B retake flash (Left Click)"
+			Text = "B retake flash "
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left click throw: Aim at the wood"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "22111a26-f110-469f-816a-68bd8ac28259"
 	}
-	MapAnnotationNode51 = 
+	MapAnnotationNode48 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1576,7 +1460,7 @@
 		MasterNodeId = "22111a26-f110-469f-816a-68bd8ac28259"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode52 = 
+	MapAnnotationNode49 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1592,14 +1476,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Long flash (Crouching left click)"
+			Text = "Long flash"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Lineup with the metal strap on the right side of the box"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1608,7 +1492,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode53 = 
+	MapAnnotationNode50 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1623,21 +1507,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Long flash (Crouching left click)"
+			Text = "Long flash"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Crouching left click throw:\nAim in the middle below the black markings\nBest used when cross smoke is up"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "7fd90c80-ccd1-4255-beec-475956e425d6"
 	}
-	MapAnnotationNode54 = 
+	MapAnnotationNode51 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1667,7 +1551,7 @@
 		MasterNodeId = "7fd90c80-ccd1-4255-beec-475956e425d6"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode55 = 
+	MapAnnotationNode52 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1690,7 +1574,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand on the bin against the wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1699,7 +1583,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode56 = 
+	MapAnnotationNode53 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1721,14 +1605,14 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "W jump throw: Aim at breaker"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "690a3e67-b646-4a11-abae-d83c87c1792e"
 	}
-	MapAnnotationNode57 = 
+	MapAnnotationNode54 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1758,36 +1642,7 @@
 		MasterNodeId = "690a3e67-b646-4a11-abae-d83c87c1792e"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode58 = 
-	{
-		Enabled = true
-		Type = "text"
-		Id = "35a56961-2419-4bcd-8587-20dbe00e2f38"
-		SubType = "main"
-		Position = [ 887.757324, 884.323853, 84.798622 ]
-		Angles = [ 15.113159, 52.207848, 0.0 ]
-		VisiblePfx = false
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-		Desc = 
-		{
-			Text = "W left click jump throw"
-			FontSize = 75
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-	}
-	MapAnnotationNode59 = 
+	MapAnnotationNode55 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1810,7 +1665,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Align with right side of blue bin\nits a loose lineup"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1819,7 +1674,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode60 = 
+	MapAnnotationNode56 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1834,21 +1689,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "CT Smoke (Left click)"
+			Text = "CT Smoke "
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left click throw: Middle right of building"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "b756674c-8e19-44eb-af23-10ab2e794f78"
 	}
-	MapAnnotationNode61 = 
+	MapAnnotationNode57 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1878,7 +1733,7 @@
 		MasterNodeId = "b756674c-8e19-44eb-af23-10ab2e794f78"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode62 = 
+	MapAnnotationNode58 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1901,7 +1756,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Get stuck next to the barrel"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -1910,7 +1765,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode63 = 
+	MapAnnotationNode59 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1932,14 +1787,14 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Running jump throw: Aim at the shadow on the ground"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "06290f71-e1ba-430b-a4ca-afb53d1f6bb4"
 	}
-	MapAnnotationNode64 = 
+	MapAnnotationNode60 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -1969,7 +1824,7 @@
 		MasterNodeId = "06290f71-e1ba-430b-a4ca-afb53d1f6bb4"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode65 = 
+	MapAnnotationNode61 = 
 	{
 		Enabled = true
 		Type = "text"
@@ -1992,13 +1847,13 @@
 		}
 		Desc = 
 		{
-			Text = "Running jump throw \\n(It should hit the tooth)"
+			Text = "It should hit the tooth"
 			FontSize = 75
 			FadeInDist = 800.0
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode66 = 
+	MapAnnotationNode62 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2014,14 +1869,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Long Flash (Jump throw)"
+			Text = "Long Flash "
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand at the corner of the wall\nloose lineup"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2030,7 +1885,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode67 = 
+	MapAnnotationNode63 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2045,21 +1900,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Long Flash (Jump throw)"
+			Text = "Long Flash "
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Jump throw: Aim at bottom of the tree"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "2eb88f10-4b52-475f-b490-5fe38deb8df5"
 	}
-	MapAnnotationNode68 = 
+	MapAnnotationNode64 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2089,7 +1944,7 @@
 		MasterNodeId = "2eb88f10-4b52-475f-b490-5fe38deb8df5"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode69 = 
+	MapAnnotationNode65 = 
 	{
 		Enabled = true
 		Type = "text"
@@ -2118,7 +1973,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode70 = 
+	MapAnnotationNode66 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2141,7 +1996,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand to the right of the corner"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2150,7 +2005,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode71 = 
+	MapAnnotationNode67 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2172,14 +2027,14 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left click throw:\nAim at the middle wire\n in line with the roof corner "
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "524ab965-f430-4359-adfc-35113061aa93"
 	}
-	MapAnnotationNode72 = 
+	MapAnnotationNode68 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2209,36 +2064,7 @@
 		MasterNodeId = "524ab965-f430-4359-adfc-35113061aa93"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode73 = 
-	{
-		Enabled = true
-		Type = "text"
-		Id = "d82e6d18-aaa0-48c6-9e0d-3ce5b34c4757"
-		SubType = "main"
-		Position = [ 291.371796, 1587.961792, 121.032669 ]
-		Angles = [ -33.924946, 60.187893, 0.0 ]
-		VisiblePfx = false
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-		Desc = 
-		{
-			Text = "Left click throw make sure grenade xhair \\nis lined up with the corner of the roof below"
-			FontSize = 75
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-	}
-	MapAnnotationNode74 = 
+	MapAnnotationNode69 = 
 	{
 		Enabled = true
 		Type = "spot"
@@ -2267,7 +2093,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode75 = 
+	MapAnnotationNode70 = 
 	{
 		Enabled = true
 		Type = "spot"
@@ -2296,7 +2122,7 @@
 		}
 		MasterNodeId = "6e4a4de3-331c-4cb1-addb-1bd63dbe31a6"
 	}
-	MapAnnotationNode76 = 
+	MapAnnotationNode71 = 
 	{
 		Enabled = true
 		Type = "spot"
@@ -2325,7 +2151,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode77 = 
+	MapAnnotationNode72 = 
 	{
 		Enabled = true
 		Type = "spot"
@@ -2354,7 +2180,7 @@
 		}
 		MasterNodeId = "7413a3c5-8d7b-4058-a12c-567f9a913eba"
 	}
-	MapAnnotationNode78 = 
+	MapAnnotationNode73 = 
 	{
 		Enabled = true
 		Type = "position"
@@ -2383,7 +2209,7 @@
 			FadeOutDist = 40.0
 		}
 	}
-	MapAnnotationNode79 = 
+	MapAnnotationNode74 = 
 	{
 		Enabled = true
 		Type = "text"
@@ -2412,7 +2238,7 @@
 			FadeOutDist = -1.0
 		}
 	}
-	MapAnnotationNode80 = 
+	MapAnnotationNode75 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2435,7 +2261,7 @@
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Standing left click throw: Lineup with the edge of the wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2444,7 +2270,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode81 = 
+	MapAnnotationNode76 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2466,14 +2292,14 @@
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left click throw: Aim for the bottom left of the puzzle piece"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "8e9b639c-e0b5-4b92-8acc-dc72842dd4fa"
 	}
-	MapAnnotationNode82 = 
+	MapAnnotationNode77 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2503,36 +2329,7 @@
 		MasterNodeId = "8e9b639c-e0b5-4b92-8acc-dc72842dd4fa"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode83 = 
-	{
-		Enabled = true
-		Type = "text"
-		Id = "f43e9404-d196-4f4b-a625-715948809234"
-		SubType = "main"
-		Position = [ -537.970581, 1363.461548, -54.667721 ]
-		Angles = [ 17.300707, -1.38102, 0.0 ]
-		VisiblePfx = false
-		Color = [ 255, 255, 255 ]
-		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
-		TextFacePlayer = false
-		TextHorizontalAlign = "center"
-		RevealOnSuccess = false
-		Title = 
-		{
-			Text = ""
-			FontSize = 125
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-		Desc = 
-		{
-			Text = "Left click throw\\n\\nLine up with edge of wall "
-			FontSize = 75
-			FadeInDist = 800.0
-			FadeOutDist = -1.0
-		}
-	}
-	MapAnnotationNode84 = 
+	MapAnnotationNode78 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2548,14 +2345,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Cat flash (Left click)"
+			Text = "Cat flash "
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand roughly on the right side against the wall"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2564,7 +2361,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode85 = 
+	MapAnnotationNode79 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2579,21 +2376,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "Cat flash (Left click)"
+			Text = "Cat flash "
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left click throw: Aim at the dark splodges "
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "16c75cbd-81db-40a3-bd73-08e9c871d225"
 	}
-	MapAnnotationNode86 = 
+	MapAnnotationNode80 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2623,7 +2420,7 @@
 		MasterNodeId = "16c75cbd-81db-40a3-bd73-08e9c871d225"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode87 = 
+	MapAnnotationNode81 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2639,14 +2436,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "B site exec flash (running left click)"
+			Text = "B site exec flash"
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Not precise lineup just throw as running into B"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2655,7 +2452,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode88 = 
+	MapAnnotationNode82 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2670,21 +2467,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "B site exec flash (running left click)"
+			Text = "B site exec flash"
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Running left click throw: Aim to bank off the wall into the cubby"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "1d8a722a-88c1-44c9-afa1-b8a4b8325484"
 	}
-	MapAnnotationNode89 = 
+	MapAnnotationNode83 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2714,7 +2511,7 @@
 		MasterNodeId = "1d8a722a-88c1-44c9-afa1-b8a4b8325484"
 		DistanceThreshold = 80.0
 	}
-	MapAnnotationNode90 = 
+	MapAnnotationNode84 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2730,14 +2527,14 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "B Site exec flash (Left click)"
+			Text = "B Site exec flash "
 			FontSize = 125
 			FadeInDist = 600.0
 			FadeOutDist = 40.0
 		}
 		Desc = 
 		{
-			Text = "standing instructions"
+			Text = "Stand at right side of pillar"
 			FontSize = 75
 			FadeInDist = 300.0
 			FadeOutDist = 40.0
@@ -2746,7 +2543,7 @@
 		StreakLimitGuidesOff = 2
 		JumpThrow = false
 	}
-	MapAnnotationNode91 = 
+	MapAnnotationNode85 = 
 	{
 		Enabled = true
 		Type = "grenade"
@@ -2761,21 +2558,21 @@
 		RevealOnSuccess = false
 		Title = 
 		{
-			Text = "B Site exec flash (Left click)"
+			Text = "B Site exec flash "
 			FontSize = 125
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		Desc = 
 		{
-			Text = "aim instructions"
+			Text = "Left click throw"
 			FontSize = 75
 			FadeInDist = 50.0
 			FadeOutDist = -1.0
 		}
 		MasterNodeId = "820fb209-8af8-41fd-95a0-8ef55662579e"
 	}
-	MapAnnotationNode92 = 
+	MapAnnotationNode86 = 
 	{
 		Enabled = true
 		Type = "grenade"

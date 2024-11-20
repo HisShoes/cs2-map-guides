@@ -16,7 +16,8 @@ annotation_save <MAP_NAME>
 add these to your config, customize keys if you want
 
 ```
-bind p "sv_cheats 1; noclip"
-bind k sv_rethrow_last_grenade
+bind p "sv_cheats 1; noclip";
+bind k sv_rethrow_last_grenade;
 bind l ent_fire smokegrenade_projectile kill;
+sv_allow_annotations 1;
 ```
