@@ -5742,4 +5742,66 @@
 		}
 		MasterNodeId = "b1125261-a9b1-4ffb-a400-c0aec09205f0"
 	}
+	MapAnnotationNode178 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "08399dd9-bc0a-41e9-9860-f62404963d92"
+		SubType = "main"
+		Position = [ 360.075439, -691.96875, -163.355286 ]
+		Angles = [ 0.0, -148.057938, 0.0 ]
+		VisiblePfx = false
+		Color = [ 255, 255, 255 ]
+		TextPositionOffset = [ 0.0, 0.0, 0.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = ""
+			FontSize = 125
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = ""
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+	}
+	MapAnnotationNode179 = 
+	{
+		Enabled = true
+		Type = "spot"
+		Id = "245248f0-0024-4247-be92-3e59a8672357"
+		SubType = "aim_target"
+		Position = [ 293.101105, -725.398071, -33.91803 ]
+		Angles = [ -41.536175, -153.474792, 0.0 ]
+		VisiblePfx = true
+		TextPositionOffset = [ 0.0, 20.0, -10.0 ]
+		TextFacePlayer = false
+		TextHorizontalAlign = "center"
+		RevealOnSuccess = false
+		Title = 
+		{
+			Text = "Top con smoke"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		Desc = 
+		{
+			Text = "Left click throw:\n\ Aim below line gap in tree leaves"
+			FontSize = 75
+			FadeInDist = 50.0
+			FadeOutDist = -1.0
+			ShowBackground = true
+		}
+		MasterNodeId = "08399dd9-bc0a-41e9-9860-f62404963d92"
+	}
 }
